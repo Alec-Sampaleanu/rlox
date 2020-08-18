@@ -1,0 +1,16 @@
+[package]
+name = "rlox"
+version = "0.1.0"
+authors = ["Alec Sampaleanu <alec@exis.com>"]
+edition = "2018"
+
+[lib]
+name="rlox"
+path="src/lib.rs"
+
+[[bin]]
+name="lox"
+path="src/bin/main.rs"
+
+[dependencies]
+rustyline = "6.2.0"
